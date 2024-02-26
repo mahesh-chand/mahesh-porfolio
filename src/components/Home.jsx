@@ -23,7 +23,7 @@ const Home = () => {
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1200px] w-full grid sm:grid-cols-2 md:gap-1 gap-8 px-4">
           {/* Profile picture */}
-          <div className="flex justify-center items-center md:pt-1 pt-64" data-aos="fade-right" data-aos-duration="800" data-aos-easing="linear">
+          <div className="flex justify-center items-center md:pt-1 pt-80" data-aos="fade-right" data-aos-duration="800" data-aos-easing="linear">
             <img
               src={pic}
               alt="mahesh chand prajapat"
