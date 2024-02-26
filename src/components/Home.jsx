@@ -21,9 +21,9 @@ const Home = () => {
       className="w-full h-screen bg-gradient-to-l from-[#21073C] to-[#3A1078] text-gray-300 dark:bg-[#21073C]"
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
-        <div className="max-w-[1200px] w-full grid sm:grid-cols-2 md:gap-1 gap-8 px-4">
+        <div className="max-w-[1200px] w-full grid sm:grid-cols-2 md:gap-1 gap-8 px-4 md:py-1 py-80">
           {/* Profile picture */}
-          <div className="flex justify-center items-center md:pt-1 pt-80" data-aos="fade-right" data-aos-duration="800" data-aos-easing="linear">
+          <div className="flex justify-center items-center" data-aos="fade-right" data-aos-duration="800" data-aos-easing="linear">
             <img
               src={pic}
               alt="mahesh chand prajapat"
